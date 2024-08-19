@@ -6,7 +6,6 @@ Animal::Animal() : _type("Animal") {
 
 Animal::Animal(const Animal &copy) {
 	std::cout << "Animal copy constructor called" << std::endl;
-	if (this != &copy)
 		*this = copy;
 }
 
