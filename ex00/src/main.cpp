@@ -16,7 +16,7 @@ int main() {
 
 	std::cout << "--------\nWrongCat\n--------" << std::endl;
 	const WrongAnimal* meta2 = new WrongAnimal();
-	const WrongAnimal* j2 = new WrongCat();
+	const WrongAnimal* j2 = new  WrongCat();
 	std::cout << j2->getType() << " " << std::endl;
 	j2->makeSound();
 	

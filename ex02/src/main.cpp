@@ -14,7 +14,7 @@ int main() {
 	//std::cout << i->getType() << " " << std::endl;
 	//i->makeSound(); //will output the cat sound! j->makeSound();
     //meta->makeSound();
-
+	A_Animal::makeSound();
 	std::cout << "--------\nWrongCat\n--------" << std::endl;
 	const WrongA_Animal* meta2 = new WrongA_Animal();
 	const WrongA_Animal* j2 = new WrongCat();
