@@ -28,3 +28,13 @@ void	Cat::makeSound(void) const
 {
 	std::cout << this->getType() << " says: Meeow!!" << std::endl;
 }
+
+Brain *Cat::getBrain( void ) const
+{
+	return (this->brain);
+}
+
+std::string *Cat::getIdeas(void) const
+{
+	return this->brain->getIdeas();
+}
