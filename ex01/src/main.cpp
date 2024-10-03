@@ -40,6 +40,7 @@ int main() {
 	std::cout << "--------\nFin\n--------" << std::endl;
 	const Animal* P = new Cat();
 	delete P;//should not create a leak delete i;
-	
+	std::cout << "- - - - - - - - - - - - - - -" << std::endl;
+
 	return 0;
 }
