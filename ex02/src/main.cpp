@@ -6,15 +6,6 @@
 #include "Brain.hpp"
 
 int main() {
-	//const A_Animal* meta = new A_Animal();
-	//const A_Animal* j = new Dog();
-	//const A_Animal* i = new Cat();
-
-	//std::cout << j->getType() << " " << std::endl;
-	//std::cout << i->getType() << " " << std::endl;
-	//i->makeSound(); //will output the cat sound! j->makeSound();
-    //meta->makeSound();
-	//A_Animal::makeSound();
 	std::cout << "--------\nWrongCat\n--------" << std::endl;
 	const WrongA_Animal* meta2 = new WrongA_Animal();
 	const WrongA_Animal* j2 = new WrongCat();
@@ -22,9 +13,6 @@ int main() {
 	j2->makeSound();
 
 	std::cout << "--------\nDelete\n--------" << std::endl;
-	//delete meta;
-	//delete j;
-	//delete i;
 	delete meta2;
 	delete j2;
 	std::cout << "--------\nBrain tests\n--------" << std::endl;
